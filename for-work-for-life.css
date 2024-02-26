@@ -1,0 +1,263 @@
+.black-bg {
+    background-color: #000000;
+    color: white !important;
+  }
+  
+  .cream-bg {
+    background-color: #f6f2f0;
+    color: black !important;
+  }
+  
+  .gray-bg {
+    background-color: #f7f7f7;
+    color: black !important;
+  }
+  
+  .samsung-btn {
+    background-color: #ffffff !important;
+    color: black !important;
+    border: 2px solid #ffffff !important;
+  }
+  
+  .samsung-btn:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 2px solid #ffffff !important;
+  }
+  
+  .samsung-dark-btn {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid black !important;
+  }
+  
+  .samsung-dark-btn:hover {
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid black !important;
+  }
+  
+  .text-21 {
+    font-size: 21px;
+  }
+  
+  .text-28 {
+    font-size: 28px;
+    font-weight: 700 !important;
+  }
+  
+  .text-36 {
+    font-size: 36px;
+    font-weight: 700 !important;
+  }
+  
+  b {
+  font-weight: 700 !important;
+  }
+  
+  .icons {
+    width: auto;
+    height: 70px;
+  }
+  
+  .text {
+    justify-content: center;
+  }
+  
+  .w-icons {
+    width: auto;
+    height: 52px;
+  }
+  
+  /* Forms */
+  form input {
+    margin: 0.3rem 0;
+    padding: 0 20px;
+    background: #f7f7f7;
+    border: 2px solid #fff;
+  }
+  
+  form input:not([type="checkbox"]) {
+    width: 100%;
+    height: 45px;
+  }
+  
+  form label,
+  #field-phone {
+    display: none;
+  }
+  
+  form label[for="field-options"] {
+    display: inline-block;
+  }
+  
+  form input:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+  }
+  
+  form button {
+    margin-top: 1.5rem;
+    background-color: #ffffff !important;
+    color: black !important;
+    border: 2px solid #ffffff !important;
+  }
+  
+  form button:hover {
+    margin-top: 1.5rem;
+    background-color: transparent !important;
+    color: white !important;
+    border: 2px solid #ffffff !important;
+  }
+  
+  .fieldinformation.checkbox {
+    margin-bottom: 1rem;
+  }
+  
+  /*
+      Blog
+       */
+       
+  .checkbox label {
+    display: inline;
+  }
+  
+  .popup-img:hover {
+    transition: all 0.8s ease-in;
+    transform: scale(1.2);
+  }
+  
+  .not-over {
+    display: none;
+  }
+  
+  .block .not-over {
+    word-wrap: break-word;
+    width: 100%;
+  }
+  
+  .img-rounded {
+    line-height: 0;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .rounded-block {
+    border-radius: 5rem;
+    overflow: hidden;
+  }
+  
+  
+  .bg-blue {
+    background-color: #b3ceed;
+  }
+  
+  .bg-green {
+    background-color: #b2e3a4;
+  }
+  
+  .bg-yellow {
+    background-color: #f3c27e;
+  }
+  
+  .card {
+    min-height: 100%!important;
+    max-height: 100%!important;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .desktop-only {
+    display: block;
+  }
+  
+  .mobile-only {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .rounded-block {
+      border-radius: 5rem;
+    }
+    
+      .desktop-only {
+      display: none;
+    }
+  
+    .mobile-only {
+      display: inline-block;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1300px) {
+    .text-28 {
+      font-size: 25px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    /* Blogs */
+    
+  .block:hover .over {
+    display: none;
+  }
+  
+  .block:hover .img-over {
+    display: none;
+  }
+  
+  .block:hover {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .block:hover .not-over {
+    display: inline-block;
+  }
+  
+  .rounded-block:hover {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+    .popup-content:hover {
+      transition: all 0.2s ease-in;
+      transform: scale(1.1);
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+  .card {
+    min-height: 42rem!important;
+    max-height: 100%!important;
+    }
+    .text-21 {
+      font-size: 20px;
+    }
+  
+    .text-28 {
+      font-size: 25px;
+    }
+  
+    .text-36 {
+      font-size: 32px;
+    }
+  
+    .popup-content:hover {
+      transition: scale(1);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .icons {
+      width: auto;
+      height: auto;
+    }
+  
+    .w-icons {
+      width: auto;
+      height: auto;
+    }
+  }
